@@ -2,18 +2,18 @@
 
 
 number = int(input('Please enter the number:'))
-isCoprime = True
+isPrime = True
 
 if number == 1:
-    isCoprime = False
-    print('(1) is not coprime number.')
+    isPrime = False
+    print('(1) is not prime number.')
 
 for i in range(2,number,1):
     if (number%i == 0):
-        isCoprime = False
+        isPrime = False
         break
 
-if isCoprime:
-    print('Number is coprime.')
+if isPrime:
+    print('Number is prime.')
 else:
-    print('Number is not coprime.')
+    print('Number is not prime.')
