@@ -19,3 +19,5 @@ while right > 0:
 
     if right == 0:
         print(f"Sorry, you don't have any right. Also the correct number is : {number}")
+        
+        
